@@ -39,12 +39,12 @@ document.querySelector(".check").addEventListener("click", function () {
       document.querySelector("body").style.backgroundColor = "#C21807";
       document.querySelector(".number").textContent = "LOSER";
       document.querySelector(".number").style.color = "#000000";
-      document.querySelector(".number").style.width = "40rem";
+      document.querySelector(".number").style.width = "30rem";
       document.querySelector(".number").style.transition = "1s";
       document.querySelector(".number").style.backgroundColor = "#fefefe";
       document.querySelector(".number").style.border = "5px solid #000000";
       document.querySelector(".message").textContent = "You Lost😛";
-      document.querySelector(".message").style.fontSize = "30px";
+      document.querySelector(".message").style.fontSize = "25px";
       document.querySelector(".message").style.transition = "1s";
       document.querySelector(".score").textContent = 0;
     }
